@@ -1,5 +1,5 @@
 {% set name = "braggedgemodeling" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ornlneutronimaging/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 5c9a83fd1064c820e522c8c71f893c0c7318ecc94b1e645fa27657cfcf224d21
+  sha256: 8fc616185642285ce272c914e0d6c71b8f198ba0e2c1ba0fcb73e4c16626b868
 
 build:
   noarch: python
