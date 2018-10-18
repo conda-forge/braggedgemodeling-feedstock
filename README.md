@@ -9,10 +9,6 @@ Feedstock license: BSD 3-Clause
 
 Summary: Neutron Bragg Edge Modeling
 
-braggedgemodeling is a Python package providing data analysis tools for
-neutron Bragg Edge spectra.
-Given material lattice structure, it can compute Bragg Edge transmission
-spectrum as a function of neutron wavelength.
 
 
 Current build status
