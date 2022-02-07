@@ -24,7 +24,7 @@ requirements:
     - pyyaml
     - numpy
     - scipy
-    - matplotlib
+    - matplotlib-base
     - diffpy.structure
     - periodictable
     
@@ -44,4 +44,3 @@ about:
 extra:
   recipe-maintainers:
     - yxqd
-
