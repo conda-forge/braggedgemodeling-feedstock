@@ -11,16 +11,16 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
   build:
   host:
-    - python >=3.5
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.5
+    - python >={{ python_min }}
     - pyyaml
     - numpy
     - scipy
@@ -29,6 +29,8 @@ requirements:
     - periodictable
     
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - bem
 
