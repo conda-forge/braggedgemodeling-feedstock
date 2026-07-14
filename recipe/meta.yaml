@@ -1,5 +1,5 @@
 {% set name = "braggedgemodeling" %}
-{% set version = "0.1.3" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ornlneutronimaging/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: dba455eebf1b7605338efe2613911b166d627d6109093fb36d6d2827697df88b
+  sha256: 4843cbb5d31612bbb4f3db63515db222fa5b4f1a5402908f51792b9451b3d03d
 
 build:
   noarch: python
@@ -27,7 +27,7 @@ requirements:
     - matplotlib-base
     - diffpy.structure
     - periodictable
-    
+
 test:
   imports:
     - bem
